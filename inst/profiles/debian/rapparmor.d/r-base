@@ -2,6 +2,8 @@
 ## To play around, create a copy with a different profile name and
 ## put it in: /etc/apparmor.d/rapparmor.d/
 
+#include <tunables/global>
+
 profile r-base {
 	#include <abstractions/base>
 	#include <abstractions/nameservice>
